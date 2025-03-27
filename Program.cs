@@ -5,12 +5,12 @@ bool letraexiste;
 Console.WriteLine("--- FORCA ---");
 Console.WriteLine();
 Console.Write("Qual a palavra secreta? ");
-palavrasecreta = Console.ReadLine();
+palavrasecreta = Console.ReadLine()!;
 
 Console.WriteLine();
 Console.Write("Qual a letra? ");
 
-letra = Console.ReadLine()
+letra = Console.ReadLine()!
             .Trim()
             .Substring(0, 1)
             .ToLower();
